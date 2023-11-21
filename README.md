@@ -53,7 +53,7 @@ app.listen(PORT, (err) => {
 
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Phase-2 
 #### Phase-2 of this project guides you through the process of creating an Elastic Beanstalk application, setting up the environment with the necessary configurations, uploading the Node.js application code, and ensuring a successful deployment verified through the provided domain URL.
 #### Step-2.1 - Create or log in to the AWS Management Console.
@@ -98,7 +98,7 @@ app.listen(PORT, (err) => {
 
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Phase-3
 #### Phase-3 of this project guides you set up an Application Load Balancer for your Elastic Beanstalk deployment
 #### Phase-3.1 Open a new tab in the AWS Management Console and navigate to the EC2 section.
@@ -134,7 +134,7 @@ app.get('/health', (req, res) => {
 
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Phase-4 
 #### Phase-4 of this project guides you Set up Nginx as Reverse Proxy," the focus is on configuring Nginx to act as a reverse proxy for your Node.js application deployed on Elastic Beanstalk.
 #### Phase-4.1 Access the AWS Management Console and go to the EC2 service.
@@ -211,7 +211,7 @@ Access the health check route (e.g., http://your-app-name.elasticbeanstalk.com/h
 
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Phase-5 
 #### Phase-5 "Ensure 200 Responses on Health Checks," the primary goal is to confirm that the Application Load Balancer (ALB) returns 200 responses on health checks, specifically at the configured /health route.
 #### Phase-5.1 Navigate to the Application Load Balancer in AWS Management Console 
@@ -223,6 +223,9 @@ Access the health check route (e.g., http://your-app-name.elasticbeanstalk.com/h
 
 
 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Phase-6 
 #### Phase-6 of the project focuses on "Obtaining Request Logs," the objective is to access and review the request logs for your Node.js application deployed on Elastic Beanstalk.
 Navigate to the Elastic Beanstalk Console
