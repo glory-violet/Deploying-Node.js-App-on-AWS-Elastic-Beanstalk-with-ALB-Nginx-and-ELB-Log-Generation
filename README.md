@@ -17,3 +17,17 @@
 #### 8. [nano] (Text Editor) - A command-line text editor used for editing Nginx configuration files on the EC2 instance.
 #### 9. AWS Elastic Beanstalk [Health Checks] - Configured to assess the health and status of the Node.js application on Elastic Beanstalk.
 #### 10. AWS Elastic Beanstalk [Logs] - Ensure that logs are being generated as expected to facilitate troubleshooting and monitoring.
+
+
+
+# Project - Execution:
+## Phase-1 
+### Phase-1 of the project focuses on setting up a Node.js application on the local machine and preparing it for deployment by compressing it into a zipped file. Here's an explanation of each step:
+
+
+
+
+
+
+
+
