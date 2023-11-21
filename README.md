@@ -3,6 +3,9 @@
 #### The project is structured into multiple phases, each dedicated to addressing specific components of the setup process. Through these phases, users can gain insights into creating a robust and scalable Node.js environment on AWS, leveraging AWS Services for a well-optimized deployment.
 
 
+## Project Architectural Overview:
+### This section provides a high-level architectural overview of the project, outlining the key components, their interactions, and the overall structure.
+<img src="https://github.com/glory-violet/Node.js-App-Deployment-on-AWS-Elastic-Beanstalk-with-ALB-and-Nginx-Configuration/assets/137056419/bed90171-335b-4c14-8dc0-8af301eb7ac6" alt="Image Description" width="900" height="500">
 
 
 
