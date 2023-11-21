@@ -1,5 +1,10 @@
 # Node.js-App-Deployment-on-AWS-Elastic-Beanstalk-with-ALB-and-Nginx-Configuration
-#### This GitHub repository hosts the source code and documentation for a project that guides you through setting up a Node.js application on AWS Elastic Beanstalk with an Application Load Balancer (ALB) and Nginx. The project is divided into multiple phases, each covering a specific aspect of the setup.
+#### This GitHub repository contains the source code and documentation for a comprehensive project that provides step-by-step guidance on deploying a Node.js application on AWS Elastic Beanstalk. The deployment is enhanced with the integration of an Application Load Balancer (ALB) and Nginx.
+#### The project is structured into multiple phases, each dedicated to addressing specific components of the setup process. Through these phases, users can gain insights into creating a robust and scalable Node.js environment on AWS, leveraging AWS Services for a well-optimized deployment.
+
+
+
+
 
 ## Project - List Of Applications Used:
 #### 1. [Express.js] - A web application framework for Node.js used to build the simple "Hello World" application.
