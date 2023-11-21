@@ -99,6 +99,53 @@ app.listen(PORT, (err) => {
 
 
 
+## Phase-3
+#### Phase-3 of this project guides you set up an Application Load Balancer for your Elastic Beanstalk deployment
+Open a new tab in the AWS Management Console and navigate to the EC2 section.
+In the EC2 Dashboard, find and select the "Load Balancers" option in the left navigation pane.
+Click on the "Create Load Balancer" button to initiate the process of creating a new load balancer.
+Choose the type of load balancer. In this case, select "Application Load Balancer" and click on the "Create" button.
+Define a Name to the ALB. Example: "Epress-ALB".
+Choose the subnets where the load balancer should distribute traffic.
+Leave all other settings as default.
+
+
+Under "Listeners and Routing" section, click on "Create Target Group".
+Choose the target type as "Instance" to direct traffic to EC2 instances.
+Scroll down and define Target Group "Name". Example: "Express-TG".
+Define the health check path ("/health") to monitor the health of instances.
+Click on "NEXT".
+
+Under "Register Targets", select the available instances.
+Choose the instances that should be registered with the target group.
+Click on "Include as pending below".
+Scroll down and click on "Create target group".
+
+Configuring Elastic Beanstalk Health Checks at /health in the "server.js" Application
+> Modify the application code (express.js file) to include a dedicated health check endpoint at /health.
+```bash
+// Example Express.js route for health checks
+app.get('/health', (req, res) => {
+  res.json({ status: 'OK' });
+});
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
