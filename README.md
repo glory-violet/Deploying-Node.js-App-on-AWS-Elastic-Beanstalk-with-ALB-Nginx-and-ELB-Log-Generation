@@ -22,11 +22,33 @@
 
 # Project - Execution:
 ## Phase-1 
-#### Phase-1 of the project focuses on setting up a Node.js application on the local machine and preparing it for deployment by compressing it into a zipped file. Here's an explanation of each step:
-#### Step-1.1 
+#### Phase-1 of the project focuses on setting up asimple Node.js (Express.js) application that responds with "Hello World" to a POST request on the local machine and preparing it for deployment by compressing it into a zipped file. Here's an explanation of each step:
+#### Step-1.1 - Create a folder to store your application packages. Example: "Express-app-dev"
+#### Step-1.2 - Run npm [init -y] to create a basic "package.json" file.
+#### Step-1.3 - Create a "server.js" file and paste the provided Node.js application code. (Copy & paste the below code in the server.js file):
+```bash
+const express = require('express');
+const app = express();
+const { PORT = 3000 } = process.env;
 
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
 
+app.listen(PORT, (err) => {
+  if (err) {
+    console.error(`Error starting the server: ${err}`);
+  } else {
+    console.log(`Example app listening on PORT ${PORT}`);
+  }
+});
+```
+#### Step-1.4 - Install the Express package using [npm install express] command. (Now you will see additional two files named: "node_modules" and "package-lock.json")
+#### Step-1.5 - Verify the application is running with the command [node server.js] (By running this command you will see an output as "Example app listening on PORT 3000".
+#### Step-1.6 - Zip Your Application: (Compress all the application files into a single Zip file) 
+> Select all the files and right click. Select "Compress to Zip File" option. Now you will be having a Zip folder.
 
+#### Now your application is ready to be deployed on "AWS Elastic Beanstalk"
 
 
 
