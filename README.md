@@ -85,16 +85,16 @@ app.listen(PORT, (err) => {
 
 
 #### Step-2.14 - Create a new EC2 instance profile (This will allow EC2 Instance to generate log files)
-#### Step-2.14.1 - Open a new tab or window in the AWS Management Console, Navigate to IAM (Identity and Access Management).
-#### Step-2.14.2 - In the IAM dashboard, click on "Roles" in the left navigation pane.
-#### Step-2.14.3 - Click the "Create role" button.
-#### Step-2.14.4 - In the "Select type of trusted entity" step, choose "AWS service" as the entity type.
-#### Step-2.14.5 - In the "Choose the use case" step, scroll down or use the search bar to find and select "Elastic Beanstalk."
-#### Step-2.14.6 - In the "Permissions" step, attach the policy "AWSElasticBeanstalkFullAccess" to grant full access to Elastic Beanstalk resources.
-#### Step-2.14.7 - Provide a meaningful name for the IAM role, such as "Express-Role"
-#### Step-2.14.8 - Review the role details, and click "Create role" to finalize.
-#### Step-2.14.9 - Navigate back to the Elastic Beanstalk Configuration screen
-#### Step-2.14.10 - Refresh and select the "Express-Role"
+> #### Step-2.14.1 - Open a new tab or window in the AWS Management Console, Navigate to IAM (Identity and Access Management).
+> #### Step-2.14.2 - In the IAM dashboard, click on "Roles" in the left navigation pane.
+> #### Step-2.14.3 - Click the "Create role" button.
+> #### Step-2.14.4 - In the "Select type of trusted entity" step, choose "AWS service" as the entity type.
+> #### Step-2.14.5 - In the "Choose the use case" step, scroll down or use the search bar to find and select "Elastic Beanstalk."
+> #### Step-2.14.6 - In the "Permissions" step, attach the policy "AWSElasticBeanstalkFullAccess" to grant full access to Elastic Beanstalk resources.
+> #### Step-2.14.7 - Provide a meaningful name for the IAM role, such as "Express-Role"
+> #### Step-2.14.8 - Review the role details, and click "Create role" to finalize.
+> #### Step-2.14.9 - Navigate back to the Elastic Beanstalk Configuration screen
+> #### Step-2.14.10 - Refresh and select the "Express-Role"
 
 
 
