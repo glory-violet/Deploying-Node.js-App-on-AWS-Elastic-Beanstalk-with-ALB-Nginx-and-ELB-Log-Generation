@@ -242,7 +242,7 @@ Download and examine the logs for any entries or errors specifically related to 
 
 #### By successfully completing these phases, you've gained hands-on experience in deploying and configuring a Node.js application on AWS Elastic Beanstalk, enhancing its scalability and reliability with features like ALB and Nginx. This project equips you with valuable skills for deploying and managing web applications in a cloud environment.
 
---------------------------------------------------------------------------------------------THANK YOU-----------------------------------------------------------------------------------------
+--------------------------------------------------------THANK YOU-----------------------------------------------------------------------------------------
 
 
 
