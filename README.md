@@ -22,7 +22,7 @@
 
 # Project - Execution:
 ## Phase-1 
-#### Phase-1 of the project focuses on setting up asimple Node.js (Express.js) application that responds with "Hello World" to a POST request on the local machine and preparing it for deployment by compressing it into a zipped file. Here's an explanation of each step:
+#### Phase-1 of the project focuses on setting up a simple Node.js (Express.js) application that responds with "Hello World" to a POST request on the local machine and preparing it for deployment by compressing it into a zipped file. Here's an explanation of each step:
 #### Step-1.1 - Create a folder to store your application packages. Example: "Express-app-dev"
 #### Step-1.2 - Run npm [init -y] to create a basic "package.json" file.
 #### Step-1.3 - Create a "server.js" file and paste the provided Node.js application code. (Copy & paste the below code in the server.js file):
