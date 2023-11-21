@@ -22,7 +22,7 @@
 
 # Project - Execution:
 ## Phase-1 
-### Phase-1 of the project focuses on setting up a Node.js application on the local machine and preparing it for deployment by compressing it into a zipped file. Here's an explanation of each step:
+#### Phase-1 of the project focuses on setting up a Node.js application on the local machine and preparing it for deployment by compressing it into a zipped file. Here's an explanation of each step:
 
 
 
