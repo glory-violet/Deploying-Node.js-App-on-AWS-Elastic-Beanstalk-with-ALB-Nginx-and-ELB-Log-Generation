@@ -54,3 +54,54 @@ app.listen(PORT, (err) => {
 
 
 
+## Phase-2 
+#### Phase-2 of this project guides you through the process of creating an Elastic Beanstalk application, setting up the environment with the necessary configurations, uploading the Node.js application code, and ensuring a successful deployment verified through the provided domain URL.
+#### Step-2.1 - Create or log in to the AWS Management Console.
+> Access the AWS Management Console using your credentials or create a new account if necessary.
+
+
+#### Step-2.2 - Navigate to Elastic Beanstalk, in the AWS Management Console.
+#### Step-2.3 - Click on "Create Application" 
+#### Step-2.4 - Select "Web Server Environment"
+#### Step-2.5 - Define the application name. example: "Express-App"
+#### Step-2.6 - Under "Managed platform", select "Node.js" as the platform from the drop down menu. (Specify Node.js as the runtime platform for your application.)
+#### Step-2.7 - Under "Application Code" section, select "Upload your Code" 
+#### Step-2.8 - Enter the "Version Label". Example: "Express-01"
+#### Step-2.9 - Select "Local File" option
+#### Step-2.10 - Click on "Choose File" option, and upload the zip file.
+#### Step-2.11 - Scroll down and select "Single Instance (Free-tier eligible), then click on "NEXT"
+
+
+
+#### Step-2.12 - Under "Service Access" section, Specify the IAM role for service access.
+#### Step-2.12.1 - Click on "Use an existing service role" 
+#### Step-2.12.2 - Select "aws-elasticbeanstalk-service-role" from the drop menu.
+
+
+
+#### Step-2.13 - Select an existing EC2 key pair or create a new one with SSH port: 20 permissions. This key pair is crucial for securely connecting to the EC2 instance that Elastic Beanstalk will create.  
+> For this demo I have created a new Security Group with the name "Express-SG".
+
+
+
+#### Step-2.14 - Create a new EC2 instance profile (This will allow EC2 Instance to generate log files)
+#### Step-2.14.1 - Open a new tab or window in the AWS Management Console, Navigate to IAM (Identity and Access Management).
+#### Step-2.14.2 - In the IAM dashboard, click on "Roles" in the left navigation pane.
+#### Step-2.14.3 - Click the "Create role" button.
+#### Step-2.14.4 - In the "Select type of trusted entity" step, choose "AWS service" as the entity type.
+#### Step-2.14.5 - In the "Choose the use case" step, scroll down or use the search bar to find and select "Elastic Beanstalk."
+#### Step-2.14.6 - In the "Permissions" step, attach the policy "AWSElasticBeanstalkFullAccess" to grant full access to Elastic Beanstalk resources.
+#### Step-2.14.7 - Provide a meaningful name for the IAM role, such as "Express-Role"
+#### Step-2.14.8 - Review the role details, and click "Create role" to finalize.
+#### Step-2.14.9 - Navigate back to the Elastic Beanstalk Configuration screen
+#### Step-2.14.10 - Refresh and select the "Express-Role"
+
+
+
+
+
+
+
+
+
+
