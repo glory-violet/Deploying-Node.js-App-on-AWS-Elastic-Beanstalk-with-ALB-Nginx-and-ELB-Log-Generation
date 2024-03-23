@@ -1,4 +1,5 @@
-# Node.js-App-Deployment-on-AWS-Elastic-Beanstalk-with-ALB-and-Nginx-Configuration
+# Deploying-Node.js-App-on-AWS-Elastic-Beanstalk-with-ALB-Nginx-and-ELB-Log-Generation
+
 #### This GitHub repository contains the source code and documentation for a comprehensive project that provides step-by-step guidance on deploying a Node.js application on AWS Elastic Beanstalk. The deployment is enhanced with the integration of an Application Load Balancer (ALB) and Nginx.
 #### The project is structured into multiple phases, each dedicated to addressing specific components of the setup process. Through these phases, users can gain insights into creating a robust and scalable Node.js environment on AWS, leveraging AWS Services for a well-optimized deployment.
 
